@@ -74,10 +74,6 @@ function updateVolume(e) {
 function playSound(e) {
   audioPlayer.play();
   if (hornSelect.value == 'party-horn'){
-    displayConfetti();
+    jsConfetti.addConfetti();
   }
-}
-
-function displayConfetti(){
-  jsConfetti.addConfetti()
 }
